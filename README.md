@@ -11,7 +11,7 @@ This is a simple pipeline to batch design Caps Marker via VCF.\
  It is recommended to use conda to install requirements.
 
 ## Quick start
-Only vcf file, reference genome and restriction endonuclease file are needed.\
+Only vcf file, reference genome and restriction endonuclease file are needed:\
 `python3 01_caps.py -v test.vcf -r reference_genome -e Enzyme_file -o output.tsv --filter`\
 If do not want to filter vcf, you can add --no-filter parameter:\
 `python3 01_caps.py -v test.vcf -r reference_genome -e Enzyme_file -o output.tsv --no-filter`\
