@@ -23,7 +23,6 @@ Acc65I	GGTACC	GGTAC'C\
 The first column is the enzyme name, the second column is the enzyme sequence, and the third column is the enzyme site, with ' as the enzyme site mark.\
 If you want to use other enzyme digestion files, you can make them yourself, as long as the format meets the above requirements.\
 If the marker file is too large, you can choose to split the result file by chromosome:\
-`bash ./02_split_tsv.sh output.tsv`\
-
+`bash ./02_split_tsv.sh output.tsv`
 ## Other
 If you have any questions, please contact me at lichengeg999@gmail.com
